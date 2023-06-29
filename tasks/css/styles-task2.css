@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+
+img {
+    width: 700px;
+}
+
+b {
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.images img {
+    max-width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+        
+.images img:hover {
+    transform: scale(1.1);
+}

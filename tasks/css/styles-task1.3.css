@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.workflow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.step {
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.step span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 10px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+.description {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.description div {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.description p {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container2 {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+.description div {
+    margin-left: 20px;
+}
